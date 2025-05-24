@@ -7,7 +7,7 @@ class BillingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Billing Screen")),
-      body: const Center(child: Text("This is your billing screen")),
+      body: const Center(child: Text("Welcome to Dastak Billing App")),
     );
   }
 }

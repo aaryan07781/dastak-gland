@@ -11,8 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Dastak Billing App',
-      theme: ThemeData(primarySwatch: Colors.indigo),
+      title: 'Dastak Billing',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
       home: const BillingScreen(),
     );
   }
